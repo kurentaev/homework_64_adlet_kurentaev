@@ -31,3 +31,15 @@ function calculateAverage(numbers) {
 calculateAverage(first)
 calculateAverage(second)
 calculateAverage(third)
+
+
+// Задание 3
+
+function riddle() {
+    let answer = prompt('У квадратного стола отпилили один угол. Сколько теперь углов у него стало?')
+    if (answer == 5 || answer === 'пять') {
+        document.getElementById("test").innerHTML = alert('Ответ верный')
+    } else {
+        document.getElementById("test").innerHTML = alert('Ответ неверный')
+    }
+}
