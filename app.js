@@ -1,4 +1,4 @@
-// Задание 1
+// Task 1
 const products = ['молоко', 'пиво', 'пиво', 'молоко', 'молоко']
 
 function productReview(products) {
@@ -14,7 +14,7 @@ function productReview(products) {
 productReview(products)
 
 
-// Задание 2
+// Task 2
 let first = [1, 5, 12, 4, 3]
 let second = [2, 3, 4, 5, 6, 7, 8, 9, 10]
 let third = [3, 10, 17]
@@ -33,7 +33,7 @@ calculateAverage(second)
 calculateAverage(third)
 
 
-// Задание 3
+// Task 3
 function riddle() {
     let answer = prompt('У квадратного стола отпилили один угол. Сколько теперь углов у него стало?')
     if (answer == 5 || answer === 'пять') {
@@ -44,7 +44,7 @@ function riddle() {
 }
 
 
-// Задание 4
+// Task 4
 let duck = {
     name: 'Дональд',
     color: 'белый',
