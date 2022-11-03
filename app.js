@@ -34,7 +34,6 @@ calculateAverage(third)
 
 
 // Задание 3
-
 function riddle() {
     let answer = prompt('У квадратного стола отпилили один угол. Сколько теперь углов у него стало?')
     if (answer == 5 || answer === 'пять') {
@@ -43,3 +42,16 @@ function riddle() {
         document.getElementById("test").innerHTML = alert('Ответ неверный')
     }
 }
+
+
+// Задание 4
+let duck = {
+    name: 'Дональд',
+    color: 'белый',
+    age: 1,
+    toStr: function () {console.log(duck.name + ', ' + duck.color + ', ' + duck.age + ' год' )},
+    say: function () {console.log('кря кря')}
+};
+
+duck.toStr()
+duck.say()
